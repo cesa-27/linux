@@ -30,7 +30,7 @@ export function Home({ onNavigate }: HomeProps) {
             animate={{ scale: 1 }}
             transition={{ delay: 0.2, duration: 0.4 }}
           >
-            <span className="text-cyan-400 text-sm">Nivel Universitario</span>
+            <span className="text-cyan-400 text-sm">equipo 4</span>
           </motion.div>
           <h1 className="text-3xl mb-3 bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
             Kali Linux: Teoría vs Realidad de los Sistemas Operativos
