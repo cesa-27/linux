@@ -254,7 +254,7 @@ export function PracticalLabs({ onBack }: PracticalLabsProps) {
                     <div className="p-5 pt-0 space-y-5">
                       {/* Tools */}
                       <div>
-                        <h4 className="text-cyan-400 text-sm mb-2">🛠 Herramientas utilizadas:</h4>
+                        <h4 className="text-cyan-400 text-sm mb-2"> Herramientas utilizadas:</h4>
                         <div className="flex flex-wrap gap-2">
                           {lab.tools.map((tool, idx) => (
                             <span 
@@ -269,7 +269,7 @@ export function PracticalLabs({ onBack }: PracticalLabsProps) {
 
                       {/* Theory */}
                       <div className="bg-black/20 border border-cyan-500/10 rounded-lg p-4">
-                        <h4 className="text-cyan-400 text-sm mb-2">📚 Teoría:</h4>
+                        <h4 className="text-cyan-400 text-sm mb-2"> Teoría:</h4>
                         <p className="text-[#E0E0E0]/70 text-sm leading-relaxed">
                           {lab.theory}
                         </p>
@@ -277,7 +277,7 @@ export function PracticalLabs({ onBack }: PracticalLabsProps) {
 
                       {/* Steps */}
                       <div>
-                        <h4 className="text-cyan-400 text-sm mb-3">📋 Pasos a seguir:</h4>
+                        <h4 className="text-cyan-400 text-sm mb-3"> Pasos a seguir:</h4>
                         <div className="space-y-3">
                           {lab.steps.map((stepData, idx) => (
                             <div 
